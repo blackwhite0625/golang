@@ -20,6 +20,7 @@ func main() {
 	var p1 Test = Test{3, 4}
 	var p2 Test = Test{y: 2, x: 3}
 	fmt.Println(p1.x, p1.y)
+	fmt.Println(p1)
 	fmt.Println(p2.x, p2.y)
 
 	//people struct
